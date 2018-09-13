@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><symbolimport xmlns="urn:Unify.Sal.Compiler">
+<assembly name="SHA" path="C:\Users\jmgemperle\Desktop\SHA\SHA\bin\Debug">
+<class name="Class1" symbol="SHA_Class1" namespace="SHA" loadassymbol="true" implemented="true">
+<type enum="ObjectNative">System_Object</type>
+<functions>
+<function name=".ctor" symbol="Class1" implemented="true" loadasglobal="false" constructor="true">
+<type enum="NoneVoid" />
+<parameters>
+</parameters>
+</function>
+<function name="SignSHA256" symbol="SignSHA256" implemented="true" loadasglobal="false">
+<type enum="Boolean" />
+<parameters>
+<parameter direction="In">
+<type enum="String" />
+</parameter>
+<parameter direction="In">
+<type enum="String" />
+</parameter>
+<parameter direction="In">
+<type enum="String" />
+</parameter>
+<parameter direction="InOut">
+<type enum="String" />
+</parameter>
+<parameter direction="InOut">
+<type enum="String" />
+</parameter>
+</parameters>
+</function>
+</functions>
+</class>
+</assembly>
+<assembly name="mscorlib">
+<class name="Object" symbol="System_Object" namespace="System" loadassymbol="true" implemented="true" autoCreatable="false">
+<functions>
+</functions>
+</class>
+</assembly>
+</symbolimport>
